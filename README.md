@@ -55,6 +55,20 @@ A simple mock API that demonstrates crypto asset monitoring.
    `REGION`  
    Region where SQL instance is hosted
 
+4. The application can be executed directly on `Intellij Idea` or prepacked as `jar` file.
+
+5. To bundle the application as a single `jar` file
+
+   ```none
+   ./mvnw package -DskipTests
+   ```
+
+6. Finally, to execute the `jar` file
+
+   ```none
+   java -jar {NAME_OF_JAR_FILE}
+   ```
+
 ### System Diagram
 
 ```none
