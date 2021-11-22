@@ -1,0 +1,7 @@
+CREATE TABLE transactions (
+  id BIGSERIAL NOT NULL PRIMARY KEY,
+  transaction_id VARCHAR(255) NOT NULL,
+  datetime VARCHAR(255) NOT NULL,
+  utc_datetime TIMESTAMP WITH TIME ZONE NOT NULL,
+  amount NUMERIC NOT NULL
+);
